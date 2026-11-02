@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+set -e
+python generate_data.py
+python part_a_clean_eda.py
+python part_b_regression.py
+python part_c_classification.py
+python part_d_segments.py
+python package_model.py
+python predict_delay.py
